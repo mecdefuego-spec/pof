@@ -22,12 +22,12 @@
   overflow: hidden;
   position: relative;
   -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-    }
-
-    /* Contenedor de estrellas (detrás de todo) */
-    #stars {
-      position: absolute;
+      html, body {
+        height: 100vh;
+        max-height: 100vh;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+      }
       inset: 0;
       z-index: 0; /* detrás de luna (1), montana (2) y svg (3) */
       pointer-events: none;
